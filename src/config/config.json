@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Ducsang1995py@",
+    "database": "Nodejs",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "query": {
+      "raw":true
+    },
+    "dialectOptions": {
+      "useUTC": false 
+    },
+    "timezone": "+7:00"
+
+  },
+  "test": {
+    "username": "root",
+    "password": "Ducsang1995py@",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "Ducsang1995py@",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
